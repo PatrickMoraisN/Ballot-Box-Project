@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.urna{
+  background: linear-gradient(#d4cdbc, #dbd5c9);
+  padding: 30px;
+  display: flex;
+}
+
+.tela{
+  height: 320px;
+  width: 500px;
+  background: linear-gradient(to right, #E8E8E8, #C1C1C1);
+  border: 4px solid #a7a39e;
+  box-shadow: 0 0 6px #b3ab9b;
+}
+
+.teclado{
+background-color: #403A3A;
+margin-left: 30px;
+}
+
+.teclado-linha{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teclado-botao{
+  font-weight: bold;
+  min-width: 70px;
+  height: 40px;
+  font-size: 25px;
+  color: rgb(235, 235, 235);
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 2px #555;
+  padding: 10px;
+}
+
+.branco{
+  background-color: rgb(233, 233, 233);
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(26, 26, 26);
+}
+
+.corrige{
+  background-color: #F09046;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(26, 26, 26);
+}
+
+.confirma{
+  background-color: #48c079;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(26, 26, 26);
+  width: 80px;
+  height: 50px;
+  padding: 10px;
+}
