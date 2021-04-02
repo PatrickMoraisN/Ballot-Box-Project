@@ -2,6 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes pisca {
+  0%{
+    opacity: 0.1;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.1;
+  }
 }
 
 body{
@@ -84,11 +97,79 @@ margin-left: 30px;
 
 .d1-left{
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.d1-1{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.d1-2{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d1-3{
+  height: 50px;
+}
+
+.num{
+  display: inline-block;
+  height: 40px;
+  width: 30px;
+  border: 2px solid rgb(46, 46, 46);
+  color: rgb(48, 48, 48);
+ text-align: center;
+ line-height: 40px;
+ font-size: 25px;
+ font-weight: bold;
+}
+
+.pisca{
+  animation-name: pisca;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+.d1-4{
+flex: 1;
+line-height: 30px;
 }
 
 .d1-right{
   width: 90px;
-  border-left: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.d1-image{
+  border: 1px solid rgb(71, 71, 71);
+  background-color: transparent;
+  text-align: center;
+  font-size: 14px;
+}
+
+.d1-image img{
+  width: 100%;
+  height: 80%;
+}
+
+.small img{
+  width: 70%;
+  height: 70%;
+  font-size: 5px;
+}
+
+.small{
+  font-size: 13px;
 }
 
 .d2{
