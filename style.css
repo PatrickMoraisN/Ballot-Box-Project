@@ -27,6 +27,7 @@ body{
   background: linear-gradient(#d4cdbc, #dbd5c9);
   padding: 30px;
   display: flex;
+  margin-top: 12.5%;
 }
 
 .tela{
