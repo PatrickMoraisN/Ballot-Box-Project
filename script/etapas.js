@@ -13,7 +13,7 @@ let etapas = [
       },
       {
         numero: '77222',
-        nome: 'Beltrano da Silva',
+        nome: 'Beltrana da Silva',
         partido: 'DEFG',
         fotos: [
           { url: '77222.jpg', legenda: 'Vereador' }
