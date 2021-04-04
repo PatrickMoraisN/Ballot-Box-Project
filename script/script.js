@@ -74,11 +74,11 @@ const atualizaInterface = () => {
   }
 }
 
-const corrige = () => {
+const votarCorrige = () => {
   document.querySelector('.corrige').addEventListener('click', () => comecarEtapa());
 }
 
-const brancoVoto = () => {
+const votarBranco = () => {
   document.querySelector('.branco').addEventListener('click', () => {
     if (numero === '') {
       branco = true;
@@ -90,7 +90,7 @@ const brancoVoto = () => {
   });
 }
 
-const confirmar = () => {
+const votarConfirmar = () => {
   document.querySelector('.confirma').addEventListener('click', () => {
     let etapa = etapas[etapaAtual];
     let votoConfirmado = false;
@@ -115,7 +115,7 @@ const confirmar = () => {
 window.onload = () => {
   clicou();
   comecarEtapa();
-  corrige();
-  brancoVoto();
-  confirmar();
+  votarCorrige();
+  votarBranco();
+  votarConfirmar();
 }
